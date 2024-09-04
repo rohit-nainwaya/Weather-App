@@ -6,7 +6,7 @@ const SearchBar = ({ onSearch }) => {
   const handleSearch = () => {
     if (city.trim() !== '') {
       onSearch(city);
-      setCity(''); // Clear input after search
+      setCity('');
     }
   };
 
